@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create Quiz</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="createQuiz.html">Create Quiz</a>
+<a href="quizList.html">Take Quiz</a>
+<a id="authLink"></a>
+</nav>
+
+<div class="container">
+
+<h2>Create Quiz</h2>
+
+<input id="title" placeholder="Quiz Title">
+
+<input id="question" placeholder="Question">
+<input id="option1" placeholder="Option 1">
+<input id="option2" placeholder="Option 2">
+<input id="option3" placeholder="Option 3">
+<input id="option4" placeholder="Option 4">
+<input id="correct" placeholder="Correct option index (0-3)">
+
+<button onclick="addQuestion()">Add Question</button>
+<button onclick="saveQuiz()">Save Quiz</button>
+
+</div>
+
+<footer>Online Quiz Maker © 2026</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
